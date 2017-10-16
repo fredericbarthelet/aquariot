@@ -1,0 +1,24 @@
+{
+  "name": "aquariot",
+  "version": "0.0.1",
+  "description": "Backend with MQTT and mosquitto for aquarium related data storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fredericbarthelet/aquariot.git"
+  },
+  "keywords": [
+    "aquarium",
+    "iot",
+    "mqtt"
+  ],
+  "author": "Frédéric Barthelet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fredericbarthelet/aquariot/issues"
+  },
+  "homepage": "https://github.com/fredericbarthelet/aquariot#readme"
+}
