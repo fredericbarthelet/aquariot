@@ -1,7 +1,7 @@
 {
   "name": "aquariot",
   "version": "0.0.1",
-  "description": "Backend with MQTT and mosquitto for aquarium related data storage",
+  "description": "Backend with MQTT and MongoDB for aquarium related data storage",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
