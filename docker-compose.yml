@@ -11,8 +11,15 @@
     - '6969:6969'
    depends_on:
      - mongodb
+     - mosquitto
   mongodb:
    image: mongo:2.4.10
    command: mongod --rest
    ports:
     - '27017:27017'
+  mosquitto:
+    image: eclipse-mosquitto
+    volumes:
+      - 'mosquitto.conf:/mosquitto/config/mosquitto.conf'
+    ports:
+      - '1883:1883'
