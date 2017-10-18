@@ -6,7 +6,7 @@
    volumes:
     - '.:/code'
     - '~/.ssh/id_rsa:/root/.ssh/id_rsa'
-   command: bash -c "tail -f /dev/null"
+   command: bash -c "npm start"
    ports:
     - '6969:6969'
    depends_on:
@@ -19,7 +19,8 @@
     - '27017:27017'
   mosquitto:
     image: eclipse-mosquitto
+    working_dir: /mosquitto
     volumes:
-      - 'mosquitto.conf:/mosquitto/config/mosquitto.conf'
+      - './mosquitto.conf:/mosquitto/config/mosquitto.conf'
     ports:
       - '1883:1883'
