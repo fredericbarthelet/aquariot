@@ -1,0 +1,8 @@
+{
+  "name": "aquariot",
+  "script": "./server/server.js",
+  "watch": "true",
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
