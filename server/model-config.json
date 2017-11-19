@@ -13,7 +13,7 @@
       "./mixins"
     ]
   },
-  "temperature": {
+  "Temperature": {
     "dataSource": "mongo",
     "public": true
   },
