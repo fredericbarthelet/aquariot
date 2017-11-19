@@ -1,21 +1,21 @@
 {
-  "name": "Temperature",
+  "name": "Analysis",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
+    "timestamp": {
+      "type": "date",
+      "required": true,
+      "defaultFn": "$now"
+    },
     "value": {
       "type": "number",
       "required": true
     },
-    "timestamp": {
-      "type": "date",
-      "required": true,
-      "default": "$now"
-    },
-    "location": {
+    "parameter": {
       "type": "string",
       "required": true
     }

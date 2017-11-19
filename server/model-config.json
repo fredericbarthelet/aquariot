@@ -16,5 +16,13 @@
   "temperature": {
     "dataSource": "mongo",
     "public": true
+  },
+  "Analysis": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "Service": {
+    "dataSource": "mongo",
+    "public": true
   }
 }
